@@ -1,6 +1,7 @@
 import random
 
 elements = ["Hydrogen", "Helium", "Lithium", "Beryllium", "Boron", "Carbon", "Nitrogen", "Oxygen", "Fluorine", "Neon"]
+print(elements)
 chosenElement = elements[random.randint(0, len(elements) - 1)]
 print("An element has been chosen...")
 guess = input("Guess the element: ").upper().strip()
